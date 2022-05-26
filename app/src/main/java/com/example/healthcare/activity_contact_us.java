@@ -37,7 +37,7 @@ public class activity_contact_us extends AppCompatActivity {
         i2 = findViewById(R.id.final_mail);
         i3 = findViewById(R.id.final_map);
 
-        final String num = "8980688666";
+        final String num = "9306514343";
         t1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -57,7 +57,7 @@ public class activity_contact_us extends AppCompatActivity {
             public void onClick(View v) {
                 Intent i = new Intent(Intent.ACTION_SENDTO);
                 i.setType("message/rfc822");
-                i.setData(Uri.parse("mailto:" + "rudra.barad@gmail.com"));
+                i.setData(Uri.parse("mailto:" + "crtronline@gmail.com"));
                 i.putExtra(Intent.EXTRA_SUBJECT, "Query or Feedback");
                 try {
                     startActivity(Intent.createChooser(i, "Choose an Email client :"));
@@ -72,7 +72,7 @@ public class activity_contact_us extends AppCompatActivity {
             public void onClick(View v) {
                 Intent i = new Intent(Intent.ACTION_SENDTO);
                 i.setType("message/rfc822");
-                i.setData(Uri.parse("mailto:" + "rudra.barad@gmail.com"));
+                i.setData(Uri.parse("mailto:" + "crtronline@gmail.com"));
                 i.putExtra(Intent.EXTRA_SUBJECT, "Query or Feedback");
                 try {
                     startActivity(Intent.createChooser(i, "Choose an Email client :"));
