@@ -34,7 +34,7 @@
             android:layout_height="40dp"
             android:layout_marginTop="2dp"
             android:fontFamily="sans-serif"
-            android:text="Medi Consult"
+            android:text="Health Consult"
             android:textAlignment="center"
             android:textColor="@color/black"
             android:textSize="24sp"
@@ -142,7 +142,7 @@
             <RadioButton
                 android:id="@+id/male"
                 android:layout_width="135dp"
-                android:layout_height="43dp"
+                android:layout_height="48dp"
                 android:layout_marginLeft="29dp"
                 android:buttonTint="#34B7FF"
                 android:checked="false"
@@ -160,7 +160,7 @@
             <RadioButton
                 android:id="@+id/female"
                 android:layout_width="145dp"
-                android:layout_height="43dp"
+                android:layout_height="48dp"
                 android:buttonTint="#34B7FF"
                 android:checked="false"
                 android:paddingLeft="5dp"
@@ -263,7 +263,7 @@
         <TextView
             android:id="@+id/android"
             android:layout_width="68dp"
-            android:layout_height="43dp"
+            android:layout_height="48dp"
             android:layout_marginBottom="5dp"
             android:background="@android:color/transparent"
             android:clickable="false"

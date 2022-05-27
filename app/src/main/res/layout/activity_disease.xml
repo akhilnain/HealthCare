@@ -30,7 +30,7 @@
             android:fontFamily="sans-serif"
             android:paddingLeft="10dp"
             android:paddingTop="8dp"
-            android:text="Mr. Rudra Barad you may have..."
+            android:text="Mr. Sahab Singh you may have..."
             android:textColor="@color/black"
             android:textSize="19sp">
 
@@ -208,9 +208,6 @@
         </ScrollView>
 
     </androidx.cardview.widget.CardView>
-
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>
 
 

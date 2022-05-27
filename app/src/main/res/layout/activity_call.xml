@@ -26,6 +26,7 @@
         android:fontFamily="@font/asul"
         android:hint="Enter Valid Number"
         android:inputType="textPersonName"
+        android:minHeight="48dp"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="@color/black"
