@@ -1,32 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".activity_disease"
-    android:background="@color/black">
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_margin="5dp">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/head_card"
-        android:layout_width="380dp"
-        android:layout_height="46dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
         android:elevation="10dp"
         app:cardBackgroundColor="@color/white"
         app:cardCornerRadius="12dp"
         app:cardElevation="10dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.451"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.016"
+        android:backgroundTint="#34B7FF"
+        app:layout_constraintBottom_toTopOf="@+id/cardView"
         tools:ignore="MissingConstraints">
 
         <TextView
             android:id="@+id/card_head"
             android:layout_width="405dp"
-            android:layout_height="wrap_content"
+            android:layout_height="82dp"
             android:fontFamily="sans-serif"
             android:paddingLeft="10dp"
             android:paddingTop="8dp"
@@ -39,17 +38,11 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView"
-        android:layout_width="382dp"
+        android:layout_width="match_parent"
         android:layout_height="626dp"
         android:elevation="10dp"
         app:cardBackgroundColor="@color/white"
         app:cardElevation="10dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.482"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.847"
         tools:ignore="MissingConstraints">
 
         <ScrollView
@@ -208,7 +201,7 @@
         </ScrollView>
 
     </androidx.cardview.widget.CardView>
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
 
 
 
