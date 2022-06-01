@@ -20,6 +20,10 @@
             android:id="@+id/nav_sos"
             android:icon="@drawable/call_icon"
             android:title="SOS Call" />
+        <item
+            android:id="@+id/nav_faq"
+            android:icon="@drawable/ic_faq"
+            android:title="FAQ" />
 
     </group>
 
