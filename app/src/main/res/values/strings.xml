@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MEDI CONSULT</string>
+    <string name="app_name">Health CONSULT</string>
     <string name="title_activity_main">main</string>
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>

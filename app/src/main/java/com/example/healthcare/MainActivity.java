@@ -49,6 +49,7 @@ public class MainActivity extends AppCompatActivity {
         female = findViewById(R.id.female);
         rg=findViewById(R.id.rg1);
 
+
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, drawer, t, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         drawer.addDrawerListener(toggle);
         toggle.syncState();

@@ -9,6 +9,7 @@ import android.widget.EditText;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.AppCompatButton;
 
+import com.example.healthcare.MainActivity;
 import com.example.healthcare.R;
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.firebase.auth.FirebaseAuth;
@@ -26,6 +27,7 @@ public class MainActivity2 extends AppCompatActivity {
         editTextCountryCode = findViewById(R.id.editTextCountryCode);
         editTextPhone = findViewById(R.id.editTextPhone);
         buttonContinue = findViewById(R.id.buttonContinue);
+
 
         buttonContinue.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -47,7 +49,9 @@ public class MainActivity2 extends AppCompatActivity {
 
             }
         });
+
     }
+
 
     @Override
     protected void onStart() {
