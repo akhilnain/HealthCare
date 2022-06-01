@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "614797740670",
+    "project_id": "health-consult-f2028",
+    "storage_bucket": "health-consult-f2028.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:614797740670:android:019ac55eae3e1899e3a62f",
+        "android_client_info": {
+          "package_name": "com.example.healthcare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "614797740670-pu1581oanhel2gqhv10636e7igk36ci9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcMBeO8t-a9hFGT4t4yIIVaICotyyUVSY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "614797740670-pu1581oanhel2gqhv10636e7igk36ci9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

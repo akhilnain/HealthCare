@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 
+import com.example.healthcare.verification.MainActivity2;
+
 import java.util.Timer;
 import java.util.TimerTask;
 
@@ -20,9 +22,9 @@ Timer t;
         t.schedule(new TimerTask() {
             @Override
             public void run() {
-                Intent i1 = new Intent(home.this, MainActivity.class);
+                Intent i1 = new Intent(home.this, MainActivity2.class);
                 startActivity(i1);
-                Log.d("homeactivity","home gone");
+                //Log.d("homeactivity","home gone");
                 finish();
             }
         },2000);
