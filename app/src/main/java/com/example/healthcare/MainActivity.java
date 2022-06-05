@@ -3,23 +3,23 @@ package com.example.healthcare;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
-import android.app.IntentService;
+
 import android.content.Intent;
 import android.net.Uri;
-import android.os.Bundle;
+
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
-import android.widget.Toast;
+
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.widget.Toolbar;
 
 import androidx.appcompat.app.ActionBarDrawerToggle;
-import androidx.appcompat.app.AppCompatActivity;
+
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout ;
 

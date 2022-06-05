@@ -2,13 +2,13 @@ package com.example.healthcare;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
-import android.database.Cursor;
+
 import android.os.Bundle;
 import android.view.View;
-import android.webkit.WebView;
+
 import android.widget.Button;
 import android.widget.Spinner;
-import android.widget.Toast;
+
 
 public class activity_symptoms extends AppCompatActivity {
 
