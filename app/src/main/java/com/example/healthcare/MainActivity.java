@@ -102,6 +102,10 @@ public class MainActivity extends AppCompatActivity {
                         Intent c_us = new Intent(MainActivity.this, activity_contact_us.class);
                         startActivity(c_us);
                         break;
+                    case R.id.nav_faq:
+                        Intent know_us = new Intent(MainActivity.this, faq.class);
+                        startActivity(know_us);
+                        break;
 
                 }
                 drawer.closeDrawer(GravityCompat.START);

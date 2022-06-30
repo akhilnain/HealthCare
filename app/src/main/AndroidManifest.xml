@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.healthcare" >
+    package="com.example.healthcare">
 
     <uses-permission android:name="com.androidtutorialpoint.mymapsappsdirection.permission.MAPS_RECEIVE" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -22,8 +22,10 @@
         android:roundIcon="@drawable/circle1"
         android:supportsRtl="true"
         android:theme="@style/Theme.HealthCare"
-        tools:targetApi="31" >
-
+        tools:targetApi="31">
+        <activity
+            android:name=".faq"
+            android:exported="false" />
         <activity
             android:name=".activity_contact_us"
             android:screenOrientation="portrait"
@@ -68,7 +70,7 @@
             android:name=".home"
             android:exported="true"
             android:screenOrientation="portrait"
-            android:theme="@style/home_theme" >
+            android:theme="@style/home_theme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

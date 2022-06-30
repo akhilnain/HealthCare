@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="70dp"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:gravity="center"
+    tools:context=".faq">
+
+
+        <Button
+            android:id="@+id/faq1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="What is main aim of this app?" />
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="to provide basic medical information so you don't have to ask everything to a doctor"
+            android:visibility="gone"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/faq2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Does this app is free of cost?"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yes, it is totally free"
+            android:visibility="gone"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/faq3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Can we share this app?"
+            android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:text="Yes, it provide multiple options"
+        android:visibility="gone"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/faq4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Why we have to register using phno?"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To make sure , a robot is not using app"
+        android:visibility="gone"
+        android:layout_marginTop="20dp"/>
+
+
+
+</LinearLayout>

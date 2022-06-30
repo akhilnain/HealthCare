@@ -21,6 +21,7 @@ import com.example.healthcare.R;
 public class call extends AppCompatActivity {
     private static final int REQUEST_CALL = 1;
     private EditText mEditTextNumber;
+    String number ;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -44,7 +45,11 @@ public class call extends AppCompatActivity {
 
     private void makePhoneCall()
     {
-        String number = mEditTextNumber.getText().toString();
+        number = mEditTextNumber.getText().toString();
+        if(number.isEmpty()){
+            number="112";
+        }
+
         if (number.trim().length() > 0)
         {
             if(ContextCompat.checkSelfPermission(call.this, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED)
